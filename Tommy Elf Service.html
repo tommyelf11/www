@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0020)http://tommyelf.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="expires" content="MON, 1 SEP 2003 12:00:00 GMT">
+<meta name="description" content="tommy elf service, Reparationer och Service av Elektronik. Rep av synthar, f�rst�rkare,keyboard mm.">
+<meta name="generator" content="Site Studio 6 (www.effectivestudios.com)">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="imagetoolbar" content="no">
+
+<meta name="keywords" content="pianoservice, printer, rep av synthar, reparation av elektronik, service, service p� musikinstrument, synthar, tommy elf, tommy elf service">
+<meta name="robots" content="index,follow">
+<link rel="stylesheet" href="./Tommy Elf Service_files/20080330_2.css" type="text/css">
+<style type="text/css">
+a {
+	color:#FF2900;
+	text-decoration:underline;
+}
+a:visited {
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+a img {
+	border:#000000 0px none;
+}
+</style>
+<title>Tommy Elf Service</title>
+<script type="text/javascript">
+//<![CDATA[
+function JSInit() {
+{
+DADRenderDate('Comp3_DateDisplayer', '%#d %B %Y', 'Datum');
+
+}
+}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+	var g_mhd1strTimeoutId	= "";
+	var g_mhd1strLastOpenId	= "";
+
+	function mhdGetRef(str)
+	{
+		return document.all ? document.all[str] : document.getElementById(str);
+	}
+	function mhdSwitchImage(strId, strFileName)
+	{
+		var obj = mhdGetRef(strId);
+		if(obj == null || typeof(obj) == "undefined" || typeof(obj.src) == "undefined") return;
+		obj.src = strFileName;
+	}
+	function mhdSetClass(strId, strClass)
+	{
+		var obj = mhdGetRef(strId);
+		if(obj == null || typeof(obj) == "undefined" || typeof(obj.className) == "undefined") return;
+		obj.className = strClass;
+	}	
+	function mhdShowHideLayer(strId, bShow)
+	{
+		var obj = mhdGetRef(strId);
+		if(obj == null || typeof(obj) == "undefined" || typeof(obj.style) == "undefined") return;
+		if(bShow && obj.style.display != "block")	{ obj.style.display = "block"; return; }
+		if(!bShow && obj.style.display != "none")	{ obj.style.display = "none"; return; }
+	}
+	function mhdGetSubMenuLevel(strId)
+	{
+		strId += "";
+		var arr = strId.split("_");
+		if(arr.length <= 1) return 0;
+		return arr.length - 1;
+	}
+	function mhdGetIdAtLevel(strId, nLevel)
+	{
+		var strRet = "";
+		var arr = strId.split("_");
+		if(arr.length <= 1 || nLevel <= 0 || nLevel > arr.length) return strRet;
+		for(var i = 0; i <= nLevel; ++i) { 
+			if(i > 0) strRet += "_";
+			strRet += arr[i];
+		}
+		return strRet;
+	}
+	function mhdClearSubMenus(strId)
+	{
+		var nMax = mhdGetSubMenuLevel(strId);
+		for(var n = nMax; n >= 1; --n) {
+			mhdShowHideLayer(mhdGetIdAtLevel(strId, n) + "_c", false);
+		}
+	}
+	function mhd1OnMouseOverItem(strId, strClass)
+	{
+		if(strClass != "") mhdSetClass(strId, strClass)
+		if(g_mhd1strLastOpenId != "") {
+			clearTimeout(g_mhd1strTimeoutId);
+			g_mhd1strTimeoutId = "";
+
+			var nMaxLast = mhdGetSubMenuLevel(g_mhd1strLastOpenId);
+			for(var n = nMaxLast; n >= 1; --n) {
+				if(mhdGetIdAtLevel(g_mhd1strLastOpenId, n) == mhdGetIdAtLevel(strId, n)) break;
+				mhdShowHideLayer(mhdGetIdAtLevel(g_mhd1strLastOpenId, n) + "_c", false);
+			}
+		}
+
+		var nMax = mhdGetSubMenuLevel(strId);
+		for(var n = 0; n <= nMax; ++n) {
+			mhdShowHideLayer(mhdGetIdAtLevel(strId, n) + "_c", true);
+		}
+
+		g_mhd1strLastOpenId = strId;
+	}
+	function mhd1OnMouseOutItem(strId, strClass)
+	{
+		if(strClass != "") mhdSetClass(strId, strClass)
+		g_mhd1strTimeoutId = setTimeout("mhdClearSubMenus('" + strId + "');", 500);
+	}
+//]]>
+</script>
+<style type="text/css">
+	#mhd1 a.Undermeny:visited	{ text-decoration:none;color:#000000; }
+	#mhd1 a.Undermeny:hover	{ text-decoration:none;color:#000000; }
+
+	#mhd1 a.Undermeny:visited	{ text-decoration:none;color:#000000; }
+	#mhd1 a.Undermeny:hover	{ text-decoration:none;color:#000000; }
+</style>
+<script type="text/javascript">
+//<![CDATA[
+	function DADGetRef(str)
+	{
+		if(document.all)
+			return document.all[str];
+		else
+			return document.getElementById(str);
+	}
+
+	function DADLayerWrite(strLayer, strHtml)
+	{
+		if(document.all) {
+			document.all[strLayer].innerHTML = strHtml;
+		} else {
+			if(document.getElementById) {
+				document.getElementById(strLayer).innerHTML = strHtml;
+			} else {
+				var obj = document.layers[strLayer].document;
+				obj.open();
+				obj.write(strHtml);
+				obj.close();
+			}
+		}
+	}
+
+	function DADFormatTime(strFormat, objDate, strClass)
+	{
+		if(typeof(objDate) != "object") return "";
+
+		var strYearFull = "", strYear = "", strMonth = "", strDate = "", strDay = "", strHour = "", strMin = "", strSec = "", strWeekDay = "";
+
+		var arrWeekDays			= new Array("m�ndag", "tisdag", "onsdag", "torsdag", "fredag", "l�rdag", "s�ndag");
+		var arrWeekDaysShort	= new Array("m�n", "tis", "ons", "tor", "fre", "l�r", "s�n");
+		var arrMonths			= new Array("januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti", "september", "oktober", "november", "december");
+		var arrMonthsShort		= new Array("jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec");
+
+		// Assign local variables...
+		strYearFull = objDate.getFullYear() + "";
+		strYear = strYearFull.substr(2);
+		var nYear = parseInt(strYear);
+		var nMonth = objDate.getMonth() + 1;
+		strMonth = (nMonth < 10 ? "0" + nMonth : nMonth) + "";
+		strDate = (objDate.getDate() < 10 ? "0" + objDate.getDate() : objDate.getDate()) + "";
+		strDay = objDate.getDate() + "";
+
+		var nHour = objDate.getHours();
+		var nMin = objDate.getMinutes();
+		var nSec = objDate.getSeconds();
+		strHour = (nHour < 10 ? "0" + nHour : nHour) + "";
+		strMin = (nMin < 10 ? "0" + nMin : nMin) + "";
+		strSec = (nSec < 10 ? "0" + nSec : nSec) + "";
+
+		// Replace format-string
+		strFormat = strFormat.replace(/%#?Y/g,	strYearFull);	
+		strFormat = strFormat.replace(/%y/g,	strYear);	
+		strFormat = strFormat.replace(/%#y/g,	nYear);	
+		strFormat = strFormat.replace(/%m/g,	strMonth);	
+		strFormat = strFormat.replace(/%#m/g,	nMonth);	
+		strFormat = strFormat.replace(/%#?D/g,	strDate);
+		strFormat = strFormat.replace(/%#?d/g,	strDay);	
+
+		strFormat = strFormat.replace(/%H/ig,	strHour);	
+		strFormat = strFormat.replace(/%M/ig,	strMin);	
+		strFormat = strFormat.replace(/%S/ig,	strSec);
+		strFormat = strFormat.replace(/%#H/ig,	nHour);	
+		strFormat = strFormat.replace(/%#M/ig,	nMin);	
+		strFormat = strFormat.replace(/%#S/ig,	nSec);
+		
+		strFormat = strFormat.replace(/%A/g,	arrWeekDays[(objDate.getDay() + 6) % 7]);	
+		strFormat = strFormat.replace(/%a/g,	arrWeekDaysShort[(objDate.getDay() + 6) % 7]);	
+		strFormat = strFormat.replace(/%B/g,	arrMonths[objDate.getMonth()]);	
+		strFormat = strFormat.replace(/%b/g,	arrMonthsShort[objDate.getMonth()]);	
+
+		return "<p class=\"" + strClass + "\">" + strFormat + "</p>\r\n";
+	}
+
+	function DADRenderDate(strID, strFormat, strClass)
+	{
+		DADLayerWrite(strID, DADFormatTime(strFormat, new Date(), strClass));
+	}
+//]]>
+</script>
+</head>
+<body class="normal" onload="JSInit();" style="text-align:center;margin:0px 0px 0px 100px;padding:0px;background-color:#FFFFFF;">
+<div id="Comp4_CodeRelayer" style="visibility:hidden;"><!-- Start WEBSTAT kod -->
+<span id="webstat">
+<script src="./Tommy Elf Service_files/detectplugins_source.js"></script>
+<script src="./Tommy Elf Service_files/stat_isp2.php"></script> 
+<script type="text/javascript">
+<!--
+var info="&plugins=" + (detectFlash()?"flash|":"") + (detectDirector()?"shockwave|":"") + (detectQuickTime()?"quicktime|":"") + (detectReal()?"realplayer|":"") + (detectWindowsMedia()?"windowsmedia|":"");
+document.write("<" + "script src=\"http://stats.webstat.se/statCounter.asp?id=30207&size=" + screen.width + "x" + screen.height + "&depth=" + screen.colorDepth + "&referer=" + escape(document.referrer) + info + "&isp=" + info2+ "\"></" + "script>"); 
+-->
+</script>
+</span>
+<!-- Slut WEBSTAT kod -->
+</div>
+<div style="margin:0px auto 0px auto;width:660px;background-color:#FFFFFF;text-align:left;">
+<table style="border:none;" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align:bottom;"><img title="                                            " style="border:none;border-right:medium none;border-top:medium none;border-left:medium none;border-bottom:medium none;" height="68" alt="                                            " src="./Tommy Elf Service_files/gre1710.png" width="378"></td>
+<td style="vertical-align:bottom;width:200px;">
+<div style="padding-right:5px;padding-left:0px;padding-bottom:0px;width:200px;padding-top:0px;text-align:left;">
+<div id="Comp3_DateDisplayer" style="text-align:right;"><p class="Datum">22 september 2026</p>
+</div></div></td></tr></tbody></table></div>
+<div style="margin-right:auto;margin-left:auto;border-right:none;border-left:none;border-bottom:1px solid #FFFFFF;border-top:none;width:660px;background-color:#FFFFFF;text-align:left;">
+<div id="Comp2_MenuHorizontalDynamic"><div id="mhd1" style="text-align:left;"><table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+	<tbody><tr>
+		<td>
+<table border="0" cellpadding="0" cellspacing="0" style="margin:0px auto 0px 0px;">
+	<tbody><tr>
+		<td style="white-space:nowrap;"><img id="mhd1_img0" src="./Tommy Elf Service_files/gre1703.png" width="109" height="24" alt="V�lkommen!" style="border:none;display:block;" onmouseover="mhd1OnMouseOverItem('mhd1_0', '');" onmouseout="mhd1OnMouseOutItem('mhd1_0', '');"></td>
+		<td><img src="./Tommy Elf Service_files/space.gif" height="1" width="1" style="border:none;display:block;" alt=""></td>
+		<td style="white-space:nowrap;"><div style="position:relative;z-index:1;"><div id="mhd1_1_c" style="position:absolute;display:none;left:0px;top:24px;border:1px solid #FFFFFF;"><a style="display:block;" id="mhd1_1_0" class="Undermeny" href="http://tommyelf.com/Varvision.htm" onmouseover="mhd1OnMouseOverItem('mhd1_1_0', 'Undermeny')" onmouseout="mhd1OnMouseOutItem('mhd1_1_0', 'Undermeny')">V�r vision</a><a style="display:block;" id="mhd1_1_1" class="Undermeny" href="http://tommyelf.com/Varamal.htm" onmouseover="mhd1OnMouseOverItem('mhd1_1_1', 'Undermeny')" onmouseout="mhd1OnMouseOutItem('mhd1_1_1', 'Undermeny')">V�ra m�l</a></div><a href="http://tommyelf.com/Aktuellinfo.htm"><img id="mhd1_img1" src="./Tommy Elf Service_files/gre1704.png" width="109" height="24" alt="Aktuell info" style="border:none;display:block;" onmouseover="mhd1OnMouseOverItem('mhd1_1', '');" onmouseout="mhd1OnMouseOutItem('mhd1_1', '');"></a>
+</div></td>
+		<td><img src="./Tommy Elf Service_files/space.gif" height="1" width="1" style="border:none;display:block;" alt=""></td>
+		<td style="white-space:nowrap;"><div style="position:relative;z-index:1;"><div id="mhd1_2_c" style="position:absolute;display:none;left:0px;top:24px;border:1px solid #FFFFFF;"><a style="display:block;" id="mhd1_2_0" class="Undermeny" href="http://tommyelf.com/Aldrebilder.htm" onmouseover="mhd1OnMouseOverItem('mhd1_2_0', 'Undermeny')" onmouseout="mhd1OnMouseOutItem('mhd1_2_0', 'Undermeny')">�ldre bilder</a></div><a href="http://tommyelf.com/Bildarkiv.htm"><img id="mhd1_img2" src="./Tommy Elf Service_files/gre1705.png" width="109" height="24" alt="Bildarkiv" style="border:none;display:block;" onmouseover="mhd1OnMouseOverItem('mhd1_2', '');" onmouseout="mhd1OnMouseOutItem('mhd1_2', '');"></a>
+</div></td>
+		<td><img src="./Tommy Elf Service_files/space.gif" height="1" width="1" style="border:none;display:block;" alt=""></td>
+		<td style="white-space:nowrap;"><a href="http://tommyelf.com/Begagnat.htm"><img id="mhd1_img3" src="./Tommy Elf Service_files/gre1706.png" width="109" height="24" alt="Begagnat" style="border:none;display:block;" onmouseover="mhd1OnMouseOverItem('mhd1_3', '');" onmouseout="mhd1OnMouseOutItem('mhd1_3', '');"></a></td>
+		<td><img src="./Tommy Elf Service_files/space.gif" height="1" width="1" style="border:none;display:block;" alt=""></td>
+		<td style="white-space:nowrap;"><a href="http://tommyelf.com/Oppettider1.htm"><img id="mhd1_img4" src="./Tommy Elf Service_files/gre1707.png" width="109" height="24" alt="�ppettider" style="border:none;display:block;" onmouseover="mhd1OnMouseOverItem('mhd1_4', '');" onmouseout="mhd1OnMouseOutItem('mhd1_4', '');"></a></td>
+		<td><img src="./Tommy Elf Service_files/space.gif" height="1" width="1" style="border:none;display:block;" alt=""></td>
+		<td style="white-space:nowrap;"><a href="http://tommyelf.com/Kontaktaoss.htm"><img id="mhd1_img5" src="./Tommy Elf Service_files/gre1708.png" width="109" height="24" alt="Kontakta oss" style="border:none;display:block;" onmouseover="mhd1OnMouseOverItem('mhd1_5', '');" onmouseout="mhd1OnMouseOutItem('mhd1_5', '');"></a></td>
+		<td><img src="./Tommy Elf Service_files/space.gif" height="1" width="1" style="border:none;display:block;" alt=""></td>
+		<td style="white-space:nowrap;"><a href="http://tommyelf.com/Reservdelar.htm"><img id="mhd1_img6" src="./Tommy Elf Service_files/gre1709.png" width="109" height="24" alt="Reservdelar" style="border:none;display:block;" onmouseover="mhd1OnMouseOverItem('mhd1_6', '');" onmouseout="mhd1OnMouseOutItem('mhd1_6', '');"></a></td>
+	</tr>
+</tbody></table>
+</td>
+	</tr>
+</tbody></table>
+</div></div></div>
+<div style="margin-right:auto;margin-left:auto;padding-right:10px;padding-left:10px;padding-bottom:0px;width:640px;padding-top:0px;background-color:#FFFFFF;text-align:left;">
+<h1 class="h1">Välkommen!</h1>
+<p>&nbsp;</p>
+<div id="Comp1_sys_doctext"><p><span style="font-family:Arial;font-size:12pt;">Du är välkommen till tommy elf service -</span></p>
+<p><span style="font-family:Arial;font-size:12pt;">Mer är 40 års erfarenhet i branschen!&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><a href="http://tommyelf.com/Aktuellinfo.htm"><span style="font-family:Arial;font-size:10pt;"><strong><em>AKTUELL INFO</em></strong></span></a></p>
+<p>&nbsp;</p>
+<p><span style="font-family:Arial;font-size:12pt;">Vi&nbsp;utför service på alla typer av elektronisk apparatur, några exempel:</span></p>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-family:Arial;"><span style="font-size:14pt;">Piano, synthar, keyboards</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></li>
+<li><span style="font-family:Arial;"><span style="font-size:14pt;">Digital utrustning, effektprocessorer</span> </span></li>
+<li><span style="font-family:Arial;"><span style="font-size:14pt;">Mixers, slutsteg</span> </span></li>
+<li><span style="font-family:Arial;"><span style="font-size:14pt;">Printers, digitala tryckpressar</span> </span></li>
+<li><span style="font-family:Arial;"><span style="font-size:14pt;">mm.</span> </span></li></ul>
+<p><span style="font-size:12pt;"></span>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size:12pt;"></span>&nbsp;</p>
+<p><span style="font-size:12pt;"></span>&nbsp;</p>
+<p><span style="font-family:Arial;font-size:12pt;">Några av de produkter vi är auktoriserade för:</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:14pt;"><img title="några loggar" style="border:none;margin:0px 0px 0px 2px;" alt="några loggar" src="./Tommy Elf Service_files/nagraloggar.jpg" width="448" height="207"></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+<div style="margin-right:auto;margin-left:auto;border-right:none;border-left:none;border-bottom:3px solid #FFFFFF;border-top:3px solid #FFFFFF;padding-right:10px;padding-left:10px;padding-bottom:6px;width:640px;padding-top:5px;background-color:#FFFFFF;text-align:left;">
+<p>Copyright ©                                             . Alla rättigheter reserverade.</p></div>
+
+
+</body></html>
